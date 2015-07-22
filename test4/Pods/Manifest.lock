@@ -1,0 +1,10 @@
+PODS:
+  - VCTransitionsLibrary (1.5.0)
+
+DEPENDENCIES:
+  - VCTransitionsLibrary (~> 1.5)
+
+SPEC CHECKSUMS:
+  VCTransitionsLibrary: d61fd9b7b6721942f0d583bcc0e7f8c31ec9271b
+
+COCOAPODS: 0.38.0
