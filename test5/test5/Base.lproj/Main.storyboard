@@ -135,8 +135,6 @@
                     </view>
                     <connections>
                         <outlet property="heightConstraintForTopView" destination="Msl-Sp-jnF" id="DBm-Z9-JFH"/>
-                        <outlet property="imageViewInBottomView" destination="imL-tj-dPp" id="evc-Im-Hb5"/>
-                        <outlet property="imageViewInTopView" destination="Z25-na-4bP" id="KCc-Bt-h4s"/>
                         <outlet property="splitView" destination="aBq-hX-dv0" id="Xd0-AX-gvX"/>
                         <outlet property="topView" destination="2qv-qs-RAm" id="Jne-Ie-YfY"/>
                     </connections>

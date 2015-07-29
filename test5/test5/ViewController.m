@@ -11,9 +11,6 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *topView;
 @property (weak, nonatomic) IBOutlet UIView *splitView;
-@property (strong, nonatomic) IBOutlet UIImageView *imageViewInTopView;
-@property (strong, nonatomic) IBOutlet UIImageView *imageViewInBottomView;
-
 @end
 
 @implementation ViewController
@@ -25,8 +22,6 @@
     UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleSplitViewPosition:)];
     
     [self.splitView addGestureRecognizer:panGestureRecognizer];
-    
-    [self setImageViewFromURL];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,21 +35,4 @@
     
     self.heightConstraintForTopView.constant = touchLocation.y;
 }
-
-- (void) setImageViewFromURL {
-    NSURL *url = [NSURL URLWithString:@"https://dl.dropboxusercontent.com/u/139545/watch.jpg"];
-    NSData *data = [NSData dataWithContentsOfURL:url];
-    UIImage *image = [UIImage imageWithData:data];
-    
-    self.imageViewInTopView = [[UIImageView alloc] initWithImage:image];
-    
-    url = [NSURL URLWithString:@"https://dl.dropboxusercontent.com/u/139545/iphone6.jpg"];
-    data = [NSData dataWithContentsOfURL:url];
-    image = [UIImage imageWithData:data];
-    
-    
-    self.imageViewInBottomView = [[UIImageView alloc] initWithImage:image];
-}
-
-
 @end

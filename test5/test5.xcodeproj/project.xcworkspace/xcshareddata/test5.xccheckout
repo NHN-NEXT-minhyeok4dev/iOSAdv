@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0B67CF8B-2CB3-48C5-9598-5687F70E602E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>test5</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>258108E330EC48DFB59124E418EF40B5FBBA53C5</key>
 		<string>https://github.com/minhyeok4dev/iOSAdv.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>test5/test5.xcodeproj/project.xcworkspace</string>
+	<string>test5/test5.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>258108E330EC48DFB59124E418EF40B5FBBA53C5</key>
