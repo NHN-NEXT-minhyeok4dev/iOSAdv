@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2qv-qs-RAm" userLabel="TopView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="watch" translatesAutoresizingMaskIntoConstraints="NO" id="Z25-na-4bP">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Z25-na-4bP" secondAttribute="height" multiplier="3:1" id="1bS-li-LS2"/>
+                                            <constraint firstAttribute="width" secondItem="Z25-na-4bP" secondAttribute="height" multiplier="3:1" id="z5b-gg-o3Y"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="z5b-gg-o3Y"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Z25-na-4bP" firstAttribute="top" secondItem="2qv-qs-RAm" secondAttribute="top" id="1fQ-ww-gAR"/>
+                                    <constraint firstAttribute="height" secondItem="Z25-na-4bP" secondAttribute="height" id="8Pu-11-1pO"/>
+                                    <constraint firstAttribute="height" secondItem="Z25-na-4bP" secondAttribute="height" id="Ays-Qp-zvC"/>
+                                    <constraint firstAttribute="centerX" secondItem="Z25-na-4bP" secondAttribute="centerX" id="Fgj-AM-wso"/>
+                                    <constraint firstAttribute="width" secondItem="Z25-na-4bP" secondAttribute="width" id="GJm-HM-KrV"/>
+                                    <constraint firstAttribute="height" constant="200" id="Msl-Sp-jnF"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="Z25-na-4bP" secondAttribute="width" id="aCa-yp-juC"/>
+                                    <constraint firstAttribute="height" secondItem="Z25-na-4bP" secondAttribute="height" id="b0J-FR-xu4"/>
+                                    <constraint firstAttribute="width" secondItem="Z25-na-4bP" secondAttribute="height" multiplier="1:1" id="bHR-Pa-wi0"/>
+                                    <constraint firstAttribute="height" secondItem="Z25-na-4bP" secondAttribute="height" id="jps-fx-Qcj"/>
+                                    <constraint firstItem="Z25-na-4bP" firstAttribute="leading" secondItem="2qv-qs-RAm" secondAttribute="leading" id="lGm-Lg-keI"/>
+                                    <constraint firstAttribute="height" secondItem="Z25-na-4bP" secondAttribute="height" priority="999" id="muT-J8-SaE"/>
+                                    <constraint firstAttribute="centerX" secondItem="Z25-na-4bP" secondAttribute="centerX" id="nbq-Sr-sjA"/>
+                                    <constraint firstAttribute="bottom" secondItem="Z25-na-4bP" secondAttribute="bottom" id="pcZ-u6-AjO"/>
+                                    <constraint firstAttribute="height" constant="200" id="sKe-1w-0Sa"/>
+                                    <constraint firstAttribute="centerY" secondItem="Z25-na-4bP" secondAttribute="centerY" id="vFO-Fd-3Ab"/>
+                                    <constraint firstAttribute="height" secondItem="Z25-na-4bP" secondAttribute="height" id="vW8-Od-t0j"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="sKe-1w-0Sa"/>
+                                        <exclude reference="1fQ-ww-gAR"/>
+                                        <exclude reference="8Pu-11-1pO"/>
+                                        <exclude reference="Ays-Qp-zvC"/>
+                                        <exclude reference="GJm-HM-KrV"/>
+                                        <exclude reference="b0J-FR-xu4"/>
+                                        <exclude reference="bHR-Pa-wi0"/>
+                                        <exclude reference="jps-fx-Qcj"/>
+                                        <exclude reference="lGm-Lg-keI"/>
+                                        <exclude reference="nbq-Sr-sjA"/>
+                                        <exclude reference="vFO-Fd-3Ab"/>
+                                        <exclude reference="vW8-Od-t0j"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBq-hX-dv0" userLabel="SplitView">
+                                <rect key="frame" x="0.0" y="200" width="600" height="24"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="7ty-ge-IXb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BtF-lJ-1DX" userLabel="BottomView">
+                                <rect key="frame" x="0.0" y="224" width="600" height="376"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone6" translatesAutoresizingMaskIntoConstraints="NO" id="imL-tj-dPp">
+                                        <rect key="frame" x="179" y="0.0" width="242" height="376"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="imL-tj-dPp" secondAttribute="height" multiplier="121:188" id="8YH-Ux-XLE"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="imL-tj-dPp" secondAttribute="height" multiplier="1:1" constant="100" id="4Nk-dG-ehw"/>
+                                    <constraint firstItem="imL-tj-dPp" firstAttribute="top" secondItem="BtF-lJ-1DX" secondAttribute="top" id="6qe-dH-90k"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="GEl-Lb-vFP"/>
+                                    <constraint firstAttribute="width" secondItem="imL-tj-dPp" secondAttribute="width" id="MQu-hK-9zN"/>
+                                    <constraint firstAttribute="centerX" secondItem="imL-tj-dPp" secondAttribute="centerX" id="QDZ-VT-70q"/>
+                                    <constraint firstAttribute="centerX" secondItem="imL-tj-dPp" secondAttribute="centerX" id="Rx8-15-zK0"/>
+                                    <constraint firstItem="imL-tj-dPp" firstAttribute="top" secondItem="BtF-lJ-1DX" secondAttribute="top" id="ZWY-GV-ABv"/>
+                                    <constraint firstAttribute="centerX" secondItem="imL-tj-dPp" secondAttribute="centerX" id="esS-rz-K7Y"/>
+                                    <constraint firstAttribute="height" secondItem="imL-tj-dPp" secondAttribute="height" id="m5s-Fn-S6j"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4Nk-dG-ehw"/>
+                                        <exclude reference="6qe-dH-90k"/>
+                                        <exclude reference="MQu-hK-9zN"/>
+                                        <exclude reference="QDZ-VT-70q"/>
+                                        <exclude reference="Rx8-15-zK0"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="2qv-qs-RAm" secondAttribute="trailing" constant="-16" id="B1e-fH-oZs"/>
+                            <constraint firstItem="BtF-lJ-1DX" firstAttribute="top" secondItem="aBq-hX-dv0" secondAttribute="bottom" constant="5" id="KJf-uV-Gj8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aBq-hX-dv0" secondAttribute="trailing" constant="-16" id="KPV-aS-Hzk"/>
+                            <constraint firstItem="aBq-hX-dv0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="MuU-hw-IrU"/>
+                            <constraint firstItem="aBq-hX-dv0" firstAttribute="top" secondItem="2qv-qs-RAm" secondAttribute="bottom" id="RjL-UL-c0A"/>
+                            <constraint firstItem="BtF-lJ-1DX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Y8E-wn-8GX"/>
+                            <constraint firstItem="BtF-lJ-1DX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="aL5-36-aCi"/>
+                            <constraint firstItem="aBq-hX-dv0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="bph-Vd-k0H"/>
+                            <constraint firstItem="2qv-qs-RAm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="edN-2x-VaH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BtF-lJ-1DX" secondAttribute="trailing" constant="-16" id="jg3-7U-5AK"/>
+                            <constraint firstItem="BtF-lJ-1DX" firstAttribute="top" secondItem="aBq-hX-dv0" secondAttribute="bottom" id="kbo-xY-sE5"/>
+                            <constraint firstItem="2qv-qs-RAm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="uTs-tT-FXu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BtF-lJ-1DX" secondAttribute="bottom" id="yBG-S7-4SL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KJf-uV-Gj8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="heightConstraintForTopView" destination="Msl-Sp-jnF" id="DBm-Z9-JFH"/>
+                        <outlet property="imageViewInBottomView" destination="imL-tj-dPp" id="evc-Im-Hb5"/>
+                        <outlet property="imageViewInTopView" destination="Z25-na-4bP" id="KCc-Bt-h4s"/>
+                        <outlet property="splitView" destination="aBq-hX-dv0" id="Xd0-AX-gvX"/>
+                        <outlet property="topView" destination="2qv-qs-RAm" id="Jne-Ie-YfY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iphone6" width="512" height="864"/>
+        <image name="watch" width="1527" height="628"/>
+    </resources>
+</document>

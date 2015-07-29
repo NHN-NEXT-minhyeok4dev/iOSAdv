@@ -89,6 +89,10 @@
 }
 */
 
+method(a,b);
+
+[method param1is:a, param2Is:b]
+
 /*
 #pragma mark - Navigation
 
