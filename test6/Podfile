@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'test6' do
+    pod 'DateTools'
+end
+
+target 'test6Tests' do
+
+end
+
+target 'Countdown Widget' do
+
+end
+

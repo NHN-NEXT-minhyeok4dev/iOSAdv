@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E5AE022B85683EBFC00FF38 /* libPods-test6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3B919C55FBA06EBF07963B /* libPods-test6.a */; };
+		E0355DF31B71ED6E00F22D49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0355DF21B71ED6E00F22D49 /* main.m */; };
+		E0355DF61B71ED6E00F22D49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0355DF51B71ED6E00F22D49 /* AppDelegate.m */; };
+		E0355DF91B71ED6E00F22D49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0355DF81B71ED6E00F22D49 /* ViewController.m */; };
+		E0355DFC1B71ED6E00F22D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0355DFA1B71ED6E00F22D49 /* Main.storyboard */; };
+		E0355DFE1B71ED6E00F22D49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0355DFD1B71ED6E00F22D49 /* Images.xcassets */; };
+		E0355E011B71ED6E00F22D49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0355DFF1B71ED6E00F22D49 /* LaunchScreen.xib */; };
+		E0355E0D1B71ED6E00F22D49 /* test6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0355E0C1B71ED6E00F22D49 /* test6Tests.m */; };
+		E0355E1B1B71EDF200F22D49 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0355E1A1B71EDF200F22D49 /* SetupViewController.m */; };
+		E03D725B1B71FE52004FC156 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03D725A1B71FE52004FC156 /* NotificationCenter.framework */; };
+		E03D72611B71FE52004FC156 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03D72601B71FE52004FC156 /* TodayViewController.m */; };
+		E03D72631B71FE52004FC156 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03D72621B71FE52004FC156 /* MainInterface.storyboard */; };
+		E03D72661B71FE52004FC156 /* Countdown Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E03D72581B71FE52004FC156 /* Countdown Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0355E071B71ED6E00F22D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0355DE51B71ED6E00F22D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0355DEC1B71ED6E00F22D49;
+			remoteInfo = test6;
+		};
+		E03D72641B71FE52004FC156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0355DE51B71ED6E00F22D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E03D72571B71FE52004FC156;
+			remoteInfo = "Countdown Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E03D726A1B71FE52004FC156 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E03D72661B71FE52004FC156 /* Countdown Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		222302A0637D453F258063A5 /* Pods-test6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test6.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test6/Pods-test6.debug.xcconfig"; sourceTree = "<group>"; };
+		25C63D2362C41E65C74DEC57 /* Pods-test6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test6.release.xcconfig"; path = "Pods/Target Support Files/Pods-test6/Pods-test6.release.xcconfig"; sourceTree = "<group>"; };
+		DA3B919C55FBA06EBF07963B /* libPods-test6.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test6.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0355DED1B71ED6E00F22D49 /* test6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0355DF11B71ED6E00F22D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0355DF21B71ED6E00F22D49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0355DF41B71ED6E00F22D49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0355DF51B71ED6E00F22D49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0355DF71B71ED6E00F22D49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0355DF81B71ED6E00F22D49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0355DFB1B71ED6E00F22D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0355DFD1B71ED6E00F22D49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E0355E001B71ED6E00F22D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E0355E061B71ED6E00F22D49 /* test6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0355E0B1B71ED6E00F22D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0355E0C1B71ED6E00F22D49 /* test6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test6Tests.m; sourceTree = "<group>"; };
+		E0355E191B71EDF200F22D49 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		E0355E1A1B71EDF200F22D49 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		E03D72581B71FE52004FC156 /* Countdown Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Countdown Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03D725A1B71FE52004FC156 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		E03D725E1B71FE52004FC156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03D725F1B71FE52004FC156 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		E03D72601B71FE52004FC156 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		E03D72621B71FE52004FC156 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		E03D726B1B71FEB6004FC156 /* test6.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = test6.entitlements; sourceTree = "<group>"; };
+		E03D726C1B71FF0C004FC156 /* Countdown Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Countdown Widget.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0355DEA1B71ED6E00F22D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5AE022B85683EBFC00FF38 /* libPods-test6.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0355E031B71ED6E00F22D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03D72551B71FE52004FC156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03D725B1B71FE52004FC156 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		742323B40791F510512FBB41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				222302A0637D453F258063A5 /* Pods-test6.debug.xcconfig */,
+				25C63D2362C41E65C74DEC57 /* Pods-test6.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0355DE41B71ED6E00F22D49 = {
+			isa = PBXGroup;
+			children = (
+				E0355DEF1B71ED6E00F22D49 /* test6 */,
+				E0355E091B71ED6E00F22D49 /* test6Tests */,
+				E03D725C1B71FE52004FC156 /* Countdown Widget */,
+				E03D72591B71FE52004FC156 /* Frameworks */,
+				E0355DEE1B71ED6E00F22D49 /* Products */,
+				742323B40791F510512FBB41 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E0355DEE1B71ED6E00F22D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0355DED1B71ED6E00F22D49 /* test6.app */,
+				E0355E061B71ED6E00F22D49 /* test6Tests.xctest */,
+				E03D72581B71FE52004FC156 /* Countdown Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0355DEF1B71ED6E00F22D49 /* test6 */ = {
+			isa = PBXGroup;
+			children = (
+				E03D726B1B71FEB6004FC156 /* test6.entitlements */,
+				E0355DF41B71ED6E00F22D49 /* AppDelegate.h */,
+				E0355DF51B71ED6E00F22D49 /* AppDelegate.m */,
+				E0355DF71B71ED6E00F22D49 /* ViewController.h */,
+				E0355DF81B71ED6E00F22D49 /* ViewController.m */,
+				E0355DFA1B71ED6E00F22D49 /* Main.storyboard */,
+				E0355E191B71EDF200F22D49 /* SetupViewController.h */,
+				E0355E1A1B71EDF200F22D49 /* SetupViewController.m */,
+				E0355DFD1B71ED6E00F22D49 /* Images.xcassets */,
+				E0355DFF1B71ED6E00F22D49 /* LaunchScreen.xib */,
+				E0355DF01B71ED6E00F22D49 /* Supporting Files */,
+			);
+			path = test6;
+			sourceTree = "<group>";
+		};
+		E0355DF01B71ED6E00F22D49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0355DF11B71ED6E00F22D49 /* Info.plist */,
+				E0355DF21B71ED6E00F22D49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0355E091B71ED6E00F22D49 /* test6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0355E0C1B71ED6E00F22D49 /* test6Tests.m */,
+				E0355E0A1B71ED6E00F22D49 /* Supporting Files */,
+			);
+			path = test6Tests;
+			sourceTree = "<group>";
+		};
+		E0355E0A1B71ED6E00F22D49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0355E0B1B71ED6E00F22D49 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E03D72591B71FE52004FC156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03D725A1B71FE52004FC156 /* NotificationCenter.framework */,
+				DA3B919C55FBA06EBF07963B /* libPods-test6.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E03D725C1B71FE52004FC156 /* Countdown Widget */ = {
+			isa = PBXGroup;
+			children = (
+				E03D726C1B71FF0C004FC156 /* Countdown Widget.entitlements */,
+				E03D725F1B71FE52004FC156 /* TodayViewController.h */,
+				E03D72601B71FE52004FC156 /* TodayViewController.m */,
+				E03D72621B71FE52004FC156 /* MainInterface.storyboard */,
+				E03D725D1B71FE52004FC156 /* Supporting Files */,
+			);
+			path = "Countdown Widget";
+			sourceTree = "<group>";
+		};
+		E03D725D1B71FE52004FC156 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E03D725E1B71FE52004FC156 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0355DEC1B71ED6E00F22D49 /* test6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0355E101B71ED6E00F22D49 /* Build configuration list for PBXNativeTarget "test6" */;
+			buildPhases = (
+				32EA061730386525C555A80C /* Check Pods Manifest.lock */,
+				E0355DE91B71ED6E00F22D49 /* Sources */,
+				E0355DEA1B71ED6E00F22D49 /* Frameworks */,
+				E0355DEB1B71ED6E00F22D49 /* Resources */,
+				E03D726A1B71FE52004FC156 /* Embed App Extensions */,
+				D64616296B0ED9B5BDBAD472 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E03D72651B71FE52004FC156 /* PBXTargetDependency */,
+			);
+			name = test6;
+			productName = test6;
+			productReference = E0355DED1B71ED6E00F22D49 /* test6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0355E051B71ED6E00F22D49 /* test6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0355E131B71ED6E00F22D49 /* Build configuration list for PBXNativeTarget "test6Tests" */;
+			buildPhases = (
+				E0355E021B71ED6E00F22D49 /* Sources */,
+				E0355E031B71ED6E00F22D49 /* Frameworks */,
+				E0355E041B71ED6E00F22D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0355E081B71ED6E00F22D49 /* PBXTargetDependency */,
+			);
+			name = test6Tests;
+			productName = test6Tests;
+			productReference = E0355E061B71ED6E00F22D49 /* test6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E03D72571B71FE52004FC156 /* Countdown Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03D72691B71FE52004FC156 /* Build configuration list for PBXNativeTarget "Countdown Widget" */;
+			buildPhases = (
+				E03D72541B71FE52004FC156 /* Sources */,
+				E03D72551B71FE52004FC156 /* Frameworks */,
+				E03D72561B71FE52004FC156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Countdown Widget";
+			productName = "Countdown Widget";
+			productReference = E03D72581B71FE52004FC156 /* Countdown Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0355DE51B71ED6E00F22D49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "MinHyeok Kim";
+				TargetAttributes = {
+					E0355DEC1B71ED6E00F22D49 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 39WT95YDMW;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					E0355E051B71ED6E00F22D49 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E0355DEC1B71ED6E00F22D49;
+					};
+					E03D72571B71FE52004FC156 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 39WT95YDMW;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E0355DE81B71ED6E00F22D49 /* Build configuration list for PBXProject "test6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0355DE41B71ED6E00F22D49;
+			productRefGroup = E0355DEE1B71ED6E00F22D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0355DEC1B71ED6E00F22D49 /* test6 */,
+				E0355E051B71ED6E00F22D49 /* test6Tests */,
+				E03D72571B71FE52004FC156 /* Countdown Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0355DEB1B71ED6E00F22D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0355DFC1B71ED6E00F22D49 /* Main.storyboard in Resources */,
+				E0355E011B71ED6E00F22D49 /* LaunchScreen.xib in Resources */,
+				E0355DFE1B71ED6E00F22D49 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0355E041B71ED6E00F22D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03D72561B71FE52004FC156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03D72631B71FE52004FC156 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32EA061730386525C555A80C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D64616296B0ED9B5BDBAD472 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test6/Pods-test6-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0355DE91B71ED6E00F22D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0355E1B1B71EDF200F22D49 /* SetupViewController.m in Sources */,
+				E0355DF91B71ED6E00F22D49 /* ViewController.m in Sources */,
+				E0355DF61B71ED6E00F22D49 /* AppDelegate.m in Sources */,
+				E0355DF31B71ED6E00F22D49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0355E021B71ED6E00F22D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0355E0D1B71ED6E00F22D49 /* test6Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03D72541B71FE52004FC156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03D72611B71FE52004FC156 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0355E081B71ED6E00F22D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0355DEC1B71ED6E00F22D49 /* test6 */;
+			targetProxy = E0355E071B71ED6E00F22D49 /* PBXContainerItemProxy */;
+		};
+		E03D72651B71FE52004FC156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E03D72571B71FE52004FC156 /* Countdown Widget */;
+			targetProxy = E03D72641B71FE52004FC156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0355DFA1B71ED6E00F22D49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0355DFB1B71ED6E00F22D49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0355DFF1B71ED6E00F22D49 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0355E001B71ED6E00F22D49 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0355E0E1B71ED6E00F22D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0355E0F1B71ED6E00F22D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0355E111B71ED6E00F22D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222302A0637D453F258063A5 /* Pods-test6.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = test6/test6.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = test6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E0355E121B71ED6E00F22D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C63D2362C41E65C74DEC57 /* Pods-test6.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = test6/test6.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = test6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E0355E141B71ED6E00F22D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = test6Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test6.app/test6";
+			};
+			name = Debug;
+		};
+		E0355E151B71ED6E00F22D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = test6Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test6.app/test6";
+			};
+			name = Release;
+		};
+		E03D72671B71FE52004FC156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Countdown Widget/Countdown Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Countdown Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E03D72681B71FE52004FC156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Countdown Widget/Countdown Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Countdown Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0355DE81B71ED6E00F22D49 /* Build configuration list for PBXProject "test6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0355E0E1B71ED6E00F22D49 /* Debug */,
+				E0355E0F1B71ED6E00F22D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0355E101B71ED6E00F22D49 /* Build configuration list for PBXNativeTarget "test6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0355E111B71ED6E00F22D49 /* Debug */,
+				E0355E121B71ED6E00F22D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0355E131B71ED6E00F22D49 /* Build configuration list for PBXNativeTarget "test6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0355E141B71ED6E00F22D49 /* Debug */,
+				E0355E151B71ED6E00F22D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03D72691B71FE52004FC156 /* Build configuration list for PBXNativeTarget "Countdown Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03D72671B71FE52004FC156 /* Debug */,
+				E03D72681B71FE52004FC156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0355DE51B71ED6E00F22D49 /* Project object */;
+}
