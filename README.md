@@ -5,3 +5,4 @@
 150715 18:00 Week3. Stroyboard. XiB. Code <br/>
 150722 22:16 Week4. UIViewController Transitions Problem <br/>
 150729 17:33 Week5. AutoLayout SizeClass <br/>
+150805 21:30 Week6. Today Extension <br/>
