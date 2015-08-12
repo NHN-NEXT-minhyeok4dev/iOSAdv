@@ -6,3 +6,4 @@
 150722 22:16 Week4. UIViewController Transitions Problem <br/>
 150729 17:33 Week5. AutoLayout SizeClass <br/>
 150805 21:30 Week6. Today Extension <br/>
+150812 18:00 Week7. Core Data <br/>
