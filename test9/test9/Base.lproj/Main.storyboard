@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WEW-VD-6E8">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Add Item View Controller-->
+        <scene sceneID="xa6-PM-907">
+            <objects>
+                <viewController id="WEW-VD-6E8" customClass="AddItemViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SFO-EF-g3L"/>
+                        <viewControllerLayoutGuide type="bottom" id="MvJ-D1-a8C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K5w-Mx-Cc0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="key" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qYY-kW-nsk">
+                                <rect key="frame" x="45" y="81" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="value" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7yl-vT-FaD">
+                                <rect key="frame" x="45" y="132" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lf6-Tw-EUJ">
+                                <rect key="frame" x="70" y="170" width="32" height="30"/>
+                                <state key="normal" title="save">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveAction:" destination="WEW-VD-6E8" eventType="touchUpInside" id="jXT-bl-q5e"/>
+                                    <segue destination="bns-lM-CcC" kind="unwind" unwindAction="unwindToList:" id="jxr-Hd-hZs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="keyField" destination="qYY-kW-nsk" id="8XU-4L-Eb3"/>
+                        <outlet property="valueField" destination="7yl-vT-FaD" id="dwc-UW-iMz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FBg-T4-a7r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="bns-lM-CcC" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2672" y="257"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="87G-vG-K3v">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="d1v-h3-uXi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lzB-Wq-9sd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qlN-He-WoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1164" y="231"/>
+        </scene>
+    </scenes>
+</document>
