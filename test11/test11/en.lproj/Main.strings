@@ -1,0 +1,14 @@
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "FaG-dk-l4K"; */
+"FaG-dk-l4K.text" = "English";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "QGX-8D-b6e"; */
+"QGX-8D-b6e.text" = "Landon Timothy Donovan (born March 4, 1982) is an American retired professional soccer player.";
+
+/* Class = "UIButton"; normalTitle = "Birthday"; ObjectID = "YEG-fV-rDP"; */
+"YEG-fV-rDP.normalTitle" = "Birthday";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "he7-XS-X0B"; */
+"he7-XS-X0B.text" = "Landon Donovan";
+
+"birthday" = "1985.06.05";

@@ -1,0 +1,14 @@
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "FaG-dk-l4K"; */
+"FaG-dk-l4K.text" = "한국어";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "QGX-8D-b6e"; */
+"QGX-8D-b6e.text" = "기성용은 1989년 1월 24일 광주광역시 출신으로 순천중앙초등학교, 광양제철중학교, 금호고등학교를 졸업하였다. 2012년 잉글랜드 프리미어리그에 진출해 10번째 한국인 프리미어리거가 됐다.";
+
+/* Class = "UIButton"; normalTitle = "Birthday"; ObjectID = "YEG-fV-rDP"; */
+"YEG-fV-rDP.normalTitle" = "생년월일";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "he7-XS-X0B"; */
+"he7-XS-X0B.text" = "기성용";
+
+"birthday" = "1985.05.05";
